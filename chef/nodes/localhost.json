@@ -1,3 +1,7 @@
-{ 
-  "run_list": ["role[vagrant]", "role[openopps]"]
+{
+  "run_list": ["role[vagrant]", "role[openopps]"],
+  "midas": {
+    "git_repo": "https://github.com/dhcole/midas.git",
+    "git_revision": "chef-test"
+  }
 }
